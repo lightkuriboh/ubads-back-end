@@ -1,9 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express')
+const app = express()
+const cors = require('cors')
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+app.use(cors())
 
-module.exports = router;
+const userServices = require('./user/user.controller')
+const gameServices = require('./gameinfo/game.controller')
+// const achievementServices = require('./achievement/achivement.controller')
+app.use('/user', userServices)
+app.use('/game', gameServices)
+// app.use('/achievement', achievementServices)
+
+module.exports = app

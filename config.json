@@ -1,4 +1,4 @@
 {
-  "connectionString": "mongodb://localhost:27017",
+  "connectionString": "mongodb://localhost:27017/ubadsDB",
   "secret": "0kuriboh1is9handsome2and8he3love7hefang4very6much5"
 }
