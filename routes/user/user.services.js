@@ -29,6 +29,7 @@ async function getAll() {
 }
 
 async function getById(id) {
+    console.log(JSON.stringify(id))
     return await User.findById(id).select('-hash')
 }
 

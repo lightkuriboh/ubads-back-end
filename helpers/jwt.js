@@ -6,10 +6,7 @@ module.exports = jwt
 
 function jwt () {
     const secret = config.secret
-    return express_jwt({
-        secret,
-        isRevoked
-    }).unless({
+    return express_jwt({secret: secret, isRevoked: isRevoked}).unless({
         path: [
             '/user/login',
             '/user/register'
@@ -18,6 +15,7 @@ function jwt () {
 }
 
 async function isRevoked (req, payload, done) {
+    console.log('fuck')
     const user = await userService.getById(payload.sub)
     if (!user) {
         return done(null, true)

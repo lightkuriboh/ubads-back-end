@@ -5,7 +5,8 @@ const schema = new Schema({
     id: {type: String, required: true},
     owner: {type: String, required: true},
     game: {type: String, required: true},
-    best_rating: {type: String, required: true},
+    language: {type: String, required: true},
+    best_rating: {type: Number, required: true},
     best_score: {type: String, required: true},
     time: {type: String, required: true}
 })
