@@ -7,6 +7,7 @@ const User = db.User
 module.exports = {
     authenticate,
     getAll,
+    getInfoByUsername,
     getById,
     create,
     update,
@@ -24,12 +25,27 @@ async function authenticate({ username, password }) {
     }
 }
 
+async function getInfoByUsername ({username}) {
+    const user = await User.find({username: username})
+    if (user && user.length > 0) {
+        let answer = {
+            username: username,
+            metadata: user[0].metadata
+        }
+        return answer
+    } else {
+        return {
+            username: '',
+            metadata: {}
+        }
+    }
+}
+
 async function getAll() {
     return await User.find().select('-hash')
 }
 
 async function getById(id) {
-    console.log(JSON.stringify(id))
     return await User.findById(id).select('-hash')
 }
 
