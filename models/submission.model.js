@@ -7,8 +7,7 @@ const schema = new Schema({
     game: {type: String, required: true},
     language: {type: String, required: true},
     best_rating: {type: Number, required: true},
-    best_score: {type: String, required: true},
-    time: {type: String, required: true}
+    best_score: {type: String, required: true}
 })
 
 schema.set('toJSON', {virtuals: true})

@@ -2,12 +2,12 @@ const db = require('../../helpers/db')
 const Record = db.record
 
 module.exports = {
-    getAll
+    getAll,
+    addNew
 }
 
-async function getAll() {
+async function getNLastRecords(limit) {
     let skipNumber = 0
-    let limit = 100
     await Record.countDocuments({} , function (err, count) {
         if (count < limit) {
             skipNumber = 0
@@ -16,4 +16,18 @@ async function getAll() {
         }
     })
     return await Record.find().skip(skipNumber)
+}
+
+async function getAll() {
+    return await getNLastRecords(100)
+}
+
+async function addNew (recordParam) {
+    let dateNow = new Date()
+    let id = Date.parse(dateNow.toString())
+    let random = Math.floor(Math.random() * 1000 + 1);
+    id += random
+    let record = new Record(recordParam)
+    record.id = id
+    await record.save()
 }

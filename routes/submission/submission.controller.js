@@ -4,6 +4,7 @@ const Submissions = require('./submission.services')
 
 router.get('/', getAll)
 router.post('/mine', getMine)
+router.post('/add', create)
 
 module.exports = router
 
@@ -28,5 +29,15 @@ function getMine (req, res, next) {
             (err) => {
                 next(err)
             }
+        )
+}
+
+function create (req, res, next) {
+    Submissions.addNew(req.body)
+        .then(
+            (result) => res.json(result)
+        )
+        .catch(
+            (err) => next(err)
         )
 }

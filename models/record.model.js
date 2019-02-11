@@ -6,8 +6,7 @@ const schema = new Schema({
     game: {type: String, required: true},
     attacker: {type: String, required: true},
     defender: {type: String, required: true},
-    result: {type: String, required: true},
-    time: {type: String, required: true}
+    result: {type: String, required: true}
 })
 
 schema.set('toJSON', {virtuals: true})
