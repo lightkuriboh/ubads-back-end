@@ -3,6 +3,6 @@ module.exports = {
 }
 
 async function getListLanguages () {
-    let fs = require('./list')
-    return await JSON.stringify(fs.languages)
+    let lang = require('../../config/listLanguage')
+    return await JSON.stringify(lang.languages)
 }
