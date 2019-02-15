@@ -9,7 +9,7 @@ module.exports = router
 function getAll (req, res, next) {
     ViewCode.getCode(req.body)
         .then(
-            (result) => result ? res.json(result) : res.json("")
+            (result) => result ? res.json(result) : res.json('')
         )
         .catch((err) => {
             console.log(err)

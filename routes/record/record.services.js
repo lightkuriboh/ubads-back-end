@@ -1,5 +1,7 @@
 const db = require('../../helpers/db')
 const Record = db.record
+const GameServices = require('../gameinfo/game.services')
+const IDCreator = require('../../helpers/id.creator')
 
 module.exports = {
     getAll,
@@ -23,11 +25,9 @@ async function getAll() {
 }
 
 async function addNew (recordParam) {
-    let dateNow = new Date()
-    let id = Date.parse(dateNow.toString())
-    let random = Math.floor(Math.random() * 1000 + 1);
-    id += random
+
     let record = new Record(recordParam)
-    record.id = id
+    record.id = IDCreator.createID()
+
     await record.save()
 }

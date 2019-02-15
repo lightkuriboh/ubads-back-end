@@ -1,5 +1,7 @@
 const db = require('../../helpers/db')
 const Submission = db.submission
+const GameServices = require('../gameinfo/game.services')
+const IDCreator = require('../../helpers/id.creator')
 
 module.exports = {
     getAll,
@@ -7,17 +9,17 @@ module.exports = {
     addNew
 }
 
-async function getMine ({username}) {
+async function getMine ({game, username}) {
     let skipNumber = 0
     let limit = 10
-    await Submission.countDocuments({owner: username} , function (err, count) {
+    await Submission.countDocuments({game: game, owner: username} , function (err, count) {
         if (count < limit) {
             skipNumber = 0
         } else {
             skipNumber = count - limit
         }
     })
-    return await Submission.find({owner: username}).skip(skipNumber)
+    return await Submission.find({game: game, owner: username}).skip(skipNumber)
 }
 
 async function getAll () {
@@ -25,31 +27,57 @@ async function getAll () {
 }
 
 async function addNew (submissionParam) {
-    let dateNow = new Date()
-    let id = Date.parse(dateNow.toString())
-    let random = Math.floor(Math.random() * 1000 + 1);
-    id += random
+
     let code = submissionParam.code
     let submission = new Submission(submissionParam.submitData)
-    submission.id = id
-    await compileCode(code, submission.language, id)
+    submission.id = IDCreator.createID()
+
+    await compileCode(code, submission.language, submission.id)
+
+    let achievement = db.achievement
+
+    let Query = {
+        username: submission.owner,
+        game: submission.game
+    }
+    let Update = {
+        active_submission: submission.id
+    }
+    let foundDocument = await achievement.find(Query)
+    if (foundDocument && foundDocument.length > 0) {
+        await achievement.update(Query, Update)
+    } else {
+        let achivementParam = {
+            id: IDCreator.createID(),
+            username: submission.owner,
+            game: submission.game,
+            result: {
+                rating: 0,
+                score: '0'
+            },
+            active_submission: submission.id
+        }
+        let newAchievement = new achievement(achivementParam)
+        await newAchievement.save()
+    }
+
     return await submission.save()
 }
 
 async function writeCodeToFile(code, language, id) {
     const langList = require('../../config/listLanguage').languages
+
     let myLanguage = {
-        extendOut: '.fuck'
+        extend: '.fuck'
     }
 
     for (let i = 0; i < langList.length; i++) {
         if (langList[i].code === language) {
-            console.log(JSON.stringify(langList[i]))
             myLanguage = langList[i]
             break
         }
     }
-    let fileOut = 'code/' + id.toString() + myLanguage.extend
+    let fileOut = 'code/' + id.toString()
 
     try {
         const fs = require('fs')

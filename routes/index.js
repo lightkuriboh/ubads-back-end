@@ -11,6 +11,7 @@ const viewCodeServices = require('./viewcode/viewcode.controller')
 const languagesServices = require('./language/languages.controller')
 const submissionServices = require('./submission/submission.controller')
 const achievementServices = require('./achievement/achivement.controller')
+
 app.use('/user', userServices)
 app.use('/game', gameServices)
 app.use('/record', recordServices)
