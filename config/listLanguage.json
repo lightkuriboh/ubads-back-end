@@ -3,16 +3,22 @@
     {
       "code": "cpp",
       "name": "C++",
-      "extend": ".kuriboh",
-      "command": "g++ -O2 -std=c++14 ",
-      "options": ["-o"]
+      "extend": ".cpp",
+      "extendOut": ".kuriboh",
+      "command": "g++",
+      "options": ["-o"],
+      "flag": ["-O2", "-std=c++14"],
+      "pretend": "\n"
     },
     {
       "code": "python",
-      "name": "Python 3.6",
       "extend": ".py",
-      "command": "cp ",
-      "options": [""]
+      "name": "Python 3.6",
+      "extendOut": ".py",
+      "command": "/bin/cp ",
+      "options": [""],
+      "flag": [],
+      "pretend": "#!/usr/bin/env python"
     }
   ]
 }

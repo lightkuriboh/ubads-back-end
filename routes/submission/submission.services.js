@@ -1,6 +1,5 @@
 const db = require('../../helpers/db')
 const Submission = db.submission
-const GameServices = require('../gameinfo/game.services')
 const IDCreator = require('../../helpers/id.creator')
 
 module.exports = {
@@ -32,7 +31,7 @@ async function addNew (submissionParam) {
     let submission = new Submission(submissionParam.submitData)
     submission.id = IDCreator.createID()
 
-    await compileCode(code, submission.language, submission.id)
+    let compileMessage = await compileCode(code, submission.language, submission.id)
 
     let achievement = db.achievement
 
@@ -45,7 +44,7 @@ async function addNew (submissionParam) {
     }
     let foundDocument = await achievement.find(Query)
     if (foundDocument && foundDocument.length > 0) {
-        await achievement.update(Query, Update)
+        await achievement.updateOne(Query, Update)
     } else {
         let achivementParam = {
             id: IDCreator.createID(),
@@ -61,7 +60,9 @@ async function addNew (submissionParam) {
         await newAchievement.save()
     }
 
-    return await submission.save()
+    await submission.save()
+
+    return compileMessage
 }
 
 async function writeCodeToFile(code, language, id) {
@@ -77,7 +78,7 @@ async function writeCodeToFile(code, language, id) {
             break
         }
     }
-    let fileOut = 'code/' + id.toString()
+    let fileOut = 'code/' + id.toString() + myLanguage.extend
 
     try {
         const fs = require('fs')
@@ -102,17 +103,22 @@ async function compileCode(code, language, id) {
 
     let codeInfo = await writeCodeToFile(code, language, id)
     let myLanguage = codeInfo.languageInfo
-    let fileCode = codeInfo.fileName
-    //
-    // let commandString = myLanguage.command
-    //
-    // const { execFile } = require('child_process')
-    // const child = execFile(commandString, ['services/compiler.py', myLanguage, fileCode, id], (error, stdout, stderr) => {
-    //     if (error) {
-    //         console.log(error)
-    //         throw error
-    //     }
-    //     console.log('Out: ', stdout)
-    //     console.log('Err: ', stderr)
-    // })
+
+    let compileMessage = 'Compiled successfully!'
+
+    const utils = require('util')
+    const execFile = utils.promisify(require('child_process').execFile)
+    async function execute() {
+        const {error, stdout, stderr} = await execFile("python3", ["services/compiler.py", id, myLanguage.code])
+        if (error) {
+            console.log(error)
+            compileMessage = 'Compile error!'
+        }
+        if (stderr) {
+            // console.log(error)
+            compileMessage = 'Compile error!'
+        }
+    }
+    await execute()
+    return compileMessage
 }
