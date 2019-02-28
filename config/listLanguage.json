@@ -12,8 +12,8 @@
     },
     {
       "code": "python",
-      "extend": ".py",
       "name": "Python 3.6",
+      "extend": ".py",
       "extendOut": ".py",
       "command": "/bin/cp ",
       "options": [""],

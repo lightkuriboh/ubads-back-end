@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
 const db = require('../../helpers/db')
 const User = db.User
+const Token = require('../token/token')
 
 module.exports = {
     authenticate,
@@ -13,7 +14,7 @@ module.exports = {
 async function authenticate({ username, password }) {
     const user = await User.findOne({ username })
     if (user && password === user.password) {
-        const token = jwt.sign({ sub: user.username }, config.secret)
+        const token = Token.provide(username, user.privilege)
         return {
             user,
             token
@@ -26,6 +27,7 @@ async function getInfoByUsername ({username}) {
     if (user && user.length > 0) {
         let answer = {
             username: username,
+            privilege: user[0].privilege,
             metadata: user[0].metadata
         }
         return answer
@@ -47,8 +49,9 @@ async function create(userParam) {
 
     // hash password
     if (userParam.password) {
-        user.hash = bcrypt.hashSync(userParam.password, 10)
+        user.hash = await bcrypt.hashSync(userParam.password, 10)
     }
+    user.privilege = 'minion'
 
     // save user
     await user.save()

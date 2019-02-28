@@ -106,10 +106,44 @@ async function compileCode(code, language, id) {
 
     let compileMessage = 'Compiled successfully!'
 
+    // const EventEmitter = require('events')
+    //
+    // class Compilation extends EventEmitter {
+    //     execute(asyncFunc, name, ...args) {
+    //         this.emit('begin')
+    //         console.time('execute')
+    //         asyncFunc(name, ...args, (err, stdout, stderr) => {
+    //             if (err) {
+    //                 return this.emit('error', err)
+    //             }
+    //             this.emit('data', stdout)
+    //             this.emit('s_error', stderr)
+    //             console.timeEnd('execute')
+    //             this.emit('end')
+    //         })
+    //     }
+    // }
+    //
+    // const compilation = new Compilation()
+    // compilation.on('begin', () => {console.log('Begin compilation!')})
+    // compilation.on('err', (err) => {console.log('Error: ', err)})
+    // compilation.on('s_error', (stderr) => {
+    //     console.log('Stderr: ', stderr)
+    //     if (stderr) {
+    //         return 'Compile error!'
+    //     }
+    // })
+    // compilation.on('data', (data) => {console.log('Data: ', data)})
+    // compilation.on('end', () => {
+    //     console.log('Ended compilation')
+    // })
+    //
+    // compilation.execute(require('child_process').execFile, 'python3', ["services/compiler.py", id, myLanguage.code])
+
     const utils = require('util')
     const execFile = utils.promisify(require('child_process').execFile)
     async function execute() {
-        const {error, stdout, stderr} = await execFile("python3", ["services/compiler.py", id, myLanguage.code])
+        const {error, stdout, stderr} = await execFile('python3', ["services/compiler.py", id, myLanguage.code])
         if (error) {
             console.log(error)
             compileMessage = 'Compile error!'

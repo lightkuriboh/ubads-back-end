@@ -2,7 +2,17 @@ const express = require('express')
 const router = express.Router()
 const Achivement = require('./achivement.services')
 const Users = require(('../user/user.services'))
+const Token = require('../token/token')
 
+router.use(async function (req, res, next) {
+    const token = Token.retrieve(req)
+    const payload = await Token.verify(token)
+    if (payload === "Invalid") {
+        res.status(401).json({ message: 'Authorization error!' })
+    } else {
+        next()
+    }
+})
 router.get('/', getAll)
 router.post('/game', getGame)
 

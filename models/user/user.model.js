@@ -4,6 +4,7 @@ const Schema = mongoose.Schema
 const schema = new Schema({
     username: {type: String, unique: true, required: true},
     password: {type: String, required: true},
+    privilege: {type: String, required: true},
     metadata: {
         email: {type: String, required: true},
         birthday: {type: Date, default: Date.now()},
