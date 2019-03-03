@@ -8,5 +8,6 @@ module.exports = {
     submission: require('../models/submission/submission.model'),
     record: require('../models/record/record.model'),
     game: require('../models/game/game.model'),
-    achievement: require('../models/achievement/achievement.model')
+    achievement: require('../models/achievement/achievement.model'),
+    compilation: require('../models/compilation/compilation.model')
 }

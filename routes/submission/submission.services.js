@@ -25,14 +25,7 @@ async function getAll () {
     return await Submission.find()
 }
 
-async function addNew (submissionParam) {
-
-    let code = submissionParam.code
-    let submission = new Submission(submissionParam.submitData)
-    submission.id = IDCreator.createID()
-
-    let compileMessage = await compileCode(code, submission.language, submission.id)
-
+async function update_achivement(submission) {
     let achievement = db.achievement
 
     let Query = {
@@ -46,7 +39,7 @@ async function addNew (submissionParam) {
     if (foundDocument && foundDocument.length > 0) {
         await achievement.updateOne(Query, Update)
     } else {
-        let achivementParam = {
+        let achievementParam = {
             id: IDCreator.createID(),
             username: submission.owner,
             game: submission.game,
@@ -56,9 +49,36 @@ async function addNew (submissionParam) {
             },
             active_submission: submission.id
         }
-        let newAchievement = new achievement(achivementParam)
+        let newAchievement = new achievement(achievementParam)
         await newAchievement.save()
     }
+}
+
+async function update_compilation_db (id, language, log) {
+    let Compilation = db.compilation
+    let compilation = new Compilation({
+        id: id,
+        language: language,
+        result: log
+    })
+    await compilation.save()
+}
+
+async function addNew (submissionParam) {
+
+
+    let code = submissionParam.code
+    let submission = new Submission(submissionParam.submitData)
+    submission.id = IDCreator.createID()
+
+    let compilation_info = await compileCode(code, submission.language, submission.id)
+    let compileMessage = compilation_info.compileMessage
+    let compileLog = compilation_info.compileLog
+
+    await update_achivement(submission)
+
+    await update_compilation_db(submission.id, submission.language, compileLog)
+
 
     await submission.save()
 
@@ -105,6 +125,7 @@ async function compileCode(code, language, id) {
     let myLanguage = codeInfo.languageInfo
 
     let compileMessage = 'Compiled successfully!'
+    let compileLog = 'No warning or error'
 
     // const EventEmitter = require('events')
     //
@@ -143,16 +164,26 @@ async function compileCode(code, language, id) {
     const utils = require('util')
     const execFile = utils.promisify(require('child_process').execFile)
     async function execute() {
-        const {error, stdout, stderr} = await execFile('python3', ["services/compiler.py", id, myLanguage.code])
+        const {error, stdout, stderr} = await execFile('python3', ["services/compiler/compiler.py", id, myLanguage.code])
         if (error) {
-            console.log(error)
             compileMessage = 'Compile error!'
-        }
-        if (stderr) {
-            // console.log(error)
+            compileLog = error
+        } else
+        if (stderr.length > 0) {
             compileMessage = 'Compile error!'
+            compileLog = stderr
+        } else {
+            if (stdout.length > 0) {
+                compileLog = stdout
+            }
         }
+        console.log(stdout, stderr)
     }
+
     await execute()
-    return compileMessage
+
+    return {
+        compileMessage,
+        compileLog
+    }
 }
