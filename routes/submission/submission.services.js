@@ -177,7 +177,7 @@ async function compileCode(code, language, id) {
                 compileLog = stdout
             }
         }
-        console.log(stdout, stderr)
+        // console.log(stdout, stderr)
     }
 
     await execute()

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Achivement = require('./achivement.services')
+const Achievement = require('./achivement.services')
 const Users = require(('../user/user.services'))
 const Token = require('../token/token')
 
@@ -13,13 +13,14 @@ router.use(async function (req, res, next) {
         next()
     }
 })
+
 router.get('/', getAll)
 router.post('/game', getGame)
 
 module.exports = router
 
 function getAll (req, res, next) {
-    Achivement.getAll()
+    Achievement.getAll()
         .then(
             (result) => res.json(result)
         )
@@ -29,7 +30,7 @@ function getAll (req, res, next) {
 }
 
 function getGame (req, res, next) {
-    Achivement.getGame(req.body)
+    Achievement.getGame(req.body)
         .then(
             async (result) => {
                 let response = []

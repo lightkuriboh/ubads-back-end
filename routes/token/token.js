@@ -5,7 +5,8 @@ module.exports = {
     verify,
     retrieve,
     provide,
-    getUserinfoFromToken
+    getUserInfoFromToken,
+    authorizationOK
 }
 
 function verify(token) {
@@ -32,7 +33,7 @@ function provide(username, privilege) {
     return jwt.sign(payload, secret_key, signSetting)
 }
 
-function getUserinfoFromToken(token) {
+function getUserInfoFromToken(token) {
     let decoded = {}
     try {
         decoded = jwt.verify(token, secret_key)
@@ -40,4 +41,13 @@ function getUserinfoFromToken(token) {
         return {username: '', privilege: ''}
     }
     return decoded
+}
+
+async function authorizationOK (req) {
+    const token = retrieve(req)
+    const payload = await verify(token)
+    if (payload === "Invalid") {
+        return false
+    }
+    return true
 }

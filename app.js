@@ -5,7 +5,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
-const jwt = require('./helpers/jwt')
 const errorHandler = require('./helpers/db.error.handler')
 
 const app = express()
@@ -22,7 +21,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', indexRouter)
 
-app.use(jwt())
 app.use(errorHandler)
 
 // catch 404 and forward to error handler

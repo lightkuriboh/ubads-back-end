@@ -3,6 +3,7 @@ const router = express.Router()
 const Submissions = require('./submission.services')
 const Token = require('../token/token')
 
+
 router.use(async function (req, res, next) {
     const token = Token.retrieve(req)
     const payload = await Token.verify(token)

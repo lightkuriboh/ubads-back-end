@@ -17,7 +17,7 @@ router.post('/', getAll)
 module.exports = router
 
 function getAll (req, res, next) {
-    req.body.userinfo = Token.getUserinfoFromToken(Token.retrieve(req))
+    req.body.userinfo = Token.getUserInfoFromToken(Token.retrieve(req))
     ViewCode.getCode(req.body)
         .then(
             (result) => {
