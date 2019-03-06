@@ -30,4 +30,24 @@ async function addNew (recordParam) {
     record.id = IDCreator.createID()
 
     await record.save()
+
+    const port = require('../../services/game_communicator/port')
+    let query = {
+        id: record.game
+    }
+    let game_info = await GameServices.getByID(query)
+    game_info = JSON.parse(JSON.stringify(game_info))
+    let game_config = game_info.config
+    let game_engine = game_info.game_engine
+    const config = require(game_config).config
+    // port.run_game(
+    //     config.game_engine_command,
+    //     game_engine,
+    //     [],
+    //     [record.attacker, record.defender],
+    //     game_config.turn_number,
+    //     game_config.default_response_data,
+    //     game_config.bot_maximum_running_time,
+    //     game_config.game_engine_maximum_running_time
+    // )
 }

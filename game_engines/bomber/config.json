@@ -1,0 +1,11 @@
+{
+  "config": {
+    "game_engine_command": "python3",
+    "bot_maximum_running_time": 12000,
+    "game_engine_maximum_running_time": 15000,
+    "bot_waiting_time": 100,
+    "game_engine_waiting_time": 100,
+    "default_response_data": "0 0\n",
+    "turn_number": 1000
+  }
+}

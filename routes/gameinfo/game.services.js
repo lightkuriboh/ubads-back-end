@@ -6,10 +6,10 @@ module.exports = {
     getByID
 }
 
-async function getAll() {
+async function getAll () {
     return await Game.find({active: true})
 }
 
-async function getByID({id}) {
-    return await Game.find({active: true, id: id})
+async function getByID ({id}) {
+    return await Game.findOne({active: true, id: id})
 }

@@ -154,4 +154,4 @@ async function run_game(
     }
 }
 
-run_game('python3', 'test.py', ['aa.out', 'bb.out'], ['hekl0', 'lightkuriboh'], 3, '0\n', 12000, 15000)
+// run_game('python3', 'test.py', ['aa.out', 'bb.out'], ['hekl0', 'lightkuriboh'], 3, '0\n', 12000, 15000)
