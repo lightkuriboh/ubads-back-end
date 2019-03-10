@@ -128,8 +128,6 @@ async function run_game(
 
     connect_bots_to_stream(children, gameEngine_to_bot_stream)
 
-    set_bots_killing_time(children, bots_running_time)
-
     const game_engine = spawn_game_engine(game_engine_command, game_engine_name, players_name)
 
     connect_gameEngine_to_stream(game_engine, bot_to_gameEngine_stream)
@@ -151,6 +149,11 @@ async function run_game(
         // console.log('Finished Processing Turn', i)
         // console.log(game_engine.resp_data)
         push_gameEngine_data_to_bots(game_engine, gameEngine_to_bot_stream)
+    }
+    await sleep(100)
+    for (let child of children) {
+        let pid = child.pid
+        spawn('kill', [pid])
     }
 }
 

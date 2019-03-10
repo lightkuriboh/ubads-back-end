@@ -7,7 +7,7 @@ const schema = new Schema({
     game: {type: String, required: true},
     result: {
         rating: {type: Number, required: true},
-        score: {type: String, required: true}
+        score: {type: Number, required: true}
     },
     active_submission: {type: String, required: true}
 })
