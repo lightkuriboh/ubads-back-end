@@ -51,6 +51,7 @@ async function addNew (recordParam) {
     game_info = JSON.parse(JSON.stringify(game_info))
     let game_config = game_info.config
     let game_engine = game_info.game_engine
+    const score_calculator = game_info.score_calculator
     const config = require(game_config).config
 
     let attacker_bot = await getBot(record.attacker, record.game)
@@ -67,6 +68,6 @@ async function addNew (recordParam) {
         config.bot_maximum_running_time,
         config.game_engine_maximum_running_time
     )
-    // result_updater.update_all(record.id, record.game, record.attacker, record.defender)
+    result_updater.update_all(record.id, record.game, record.attacker, record.defender, score_calculator)
     return 'Done!'
 }
