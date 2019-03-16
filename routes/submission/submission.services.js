@@ -1,11 +1,25 @@
 const db = require('../../helpers/db')
 const Submission = db.submission
 const IDCreator = require('../../helpers/id.creator')
+const Languages = require('../../config/listLanguage').languages
 
 module.exports = {
     getAll,
     getMine,
-    addNew
+    addNew,
+    getRelatingBot
+}
+
+async function getRelatingBot ({id}) {
+    for (let i = 0; i < Languages.length; i++) {
+        const path = 'bot/' + id.toString() + Languages[i].extendOut
+        // console.log(path)
+        const fs = require('fs')
+        if (fs.existsSync(path)) {
+            return path
+        }
+    }
+    return ''
 }
 
 async function getMine ({game, username}) {
@@ -165,6 +179,7 @@ async function compileCode(code, language, id) {
     const execFile = utils.promisify(require('child_process').execFile)
     async function execute() {
         const {error, stdout, stderr} = await execFile('python3', ["services/compiler/compiler.py", id, myLanguage.code])
+        // console.log(stdout)
         if (error) {
             compileMessage = 'Compile error!'
             compileLog = error

@@ -12,11 +12,11 @@ router.use(async function (req, res, next) {
         next()
     }
 })
-router.post('/', getAll)
+router.post('/', getCode)
 
 module.exports = router
 
-function getAll (req, res, next) {
+function getCode (req, res, next) {
     req.body.userinfo = Token.getUserInfoFromToken(Token.retrieve(req))
     ViewCode.getCode(req.body)
         .then(

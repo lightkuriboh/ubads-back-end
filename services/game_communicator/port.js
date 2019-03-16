@@ -62,6 +62,7 @@ function spawn_the_bots(bots, turn, default_data) {
         children[i].stdout.on('data', function (data) {
             children[i].bot_data[children[i].turn] = data.toString()
             children[i].turn += 1
+            // console.log(data, 'bot')
         })
     }
     return children
@@ -75,11 +76,12 @@ function connect_bots_to_stream(bots, gameEngine_to_bot_stream) {
 }
 
 
-function spawn_game_engine(game_engine_command, game_engine_name, players_name) {
-    let game_engine = spawn(game_engine_command, [game_engine_name, ...players_name])
+function spawn_game_engine(game_engine_command, game_engine_name, fightID, players_name) {
+    let game_engine = spawn(game_engine_command, [game_engine_name, fightID, ...players_name])
     game_engine.resp_data = ''
     game_engine.stdout.on('data', function (data) {
         game_engine.resp_data = data.toString()
+        // console.log(data, 'ge')
     })
     return game_engine
 }
@@ -111,13 +113,17 @@ async function run_game(
     game_engine_command,
     game_engine_name,
     bots,
+    fightID,
     players_name,
     turn,
     default_data,
     bots_running_time,
     game_engine_running_time
 ) {
-
+    // const {execFile} = require('child_process')
+    // let child = execFile('pwd', (err, stdout, stderr) => {
+    //     console.log(err, stdout, stderr)
+    // })
     const number_of_bots = bots.length
 
     const bot_to_gameEngine_stream = create_io_stream()
@@ -128,29 +134,29 @@ async function run_game(
 
     connect_bots_to_stream(children, gameEngine_to_bot_stream)
 
-    const game_engine = spawn_game_engine(game_engine_command, game_engine_name, players_name)
+    const game_engine = spawn_game_engine(game_engine_command, game_engine_name, fightID, players_name)
 
     connect_gameEngine_to_stream(game_engine, bot_to_gameEngine_stream)
 
-    set_game_engine_killing_time(game_engine, game_engine_running_time)
+    // set_game_engine_killing_time(game_engine, game_engine_running_time)
 
-    await sleep(100)
+    await sleep(500)
     // console.log('Finished Initiating')
     // console.log(game_engine.resp_data)
     push_gameEngine_data_to_bots(game_engine, gameEngine_to_bot_stream)
     for (let i = 0; i < turn; i++) {
-        await sleep(100)
+        await sleep(200)
         // console.log('Finished Waiting Turn', i)
         // for (let j = 0; j < number_of_bots; j++) {
         //     console.log('Bot' + j.toString() + '\'response: ' + children[j].bot_data[i])
         // }
         push_bot_data_to_gameEngine(children, bot_to_gameEngine_stream, i)
-        await sleep(100)
+        await sleep(200)
         // console.log('Finished Processing Turn', i)
         // console.log(game_engine.resp_data)
         push_gameEngine_data_to_bots(game_engine, gameEngine_to_bot_stream)
     }
-    await sleep(100)
+    await sleep(500)
     for (let child of children) {
         let pid = child.pid
         spawn('kill', [pid])

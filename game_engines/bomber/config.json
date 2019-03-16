@@ -6,6 +6,6 @@
     "bot_waiting_time": 100,
     "game_engine_waiting_time": 100,
     "default_response_data": "0 0\n",
-    "turn_number": 1000
+    "turn_number": 20
   }
 }

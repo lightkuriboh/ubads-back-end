@@ -4,7 +4,8 @@ const Achievement = db.achievement
 module.exports = {
     getAll,
     getGame,
-    getUserInfo
+    getUserInfo,
+    getActiveSubmission
 }
 
 async function getGame({game}) {
@@ -21,5 +22,13 @@ async function getUserInfo ({username, game}) {
         return ans
     }
     return {}
+}
+
+async function getActiveSubmission ({username, game}) {
+    let ans = await Achievement.findOne({username: username, game: game})
+    if (ans) {
+        return ans.active_submission
+    }
+    return ''
 }
 

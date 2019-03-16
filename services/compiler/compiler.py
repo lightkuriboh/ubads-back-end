@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # print(args)
 
     id, language = parse_args(args)
-
+    # print(id, language)
     chosenLanguage = detect_language(language)
 
     # print(chosenLanguage)
