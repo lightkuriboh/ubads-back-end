@@ -42,7 +42,7 @@ async function addNew (recordParam) {
 
     await record.save()
 
-    const port = require('../../services/game_communicator/port')
+    const port = require('../../services/game_communicator/newPort')
     const result_updater = require('../../services/result_updater/result_updater')
     let query = {
         id: record.game
@@ -64,10 +64,11 @@ async function addNew (recordParam) {
         record.id,
         [record.attacker, record.defender],
         config.turn_number,
-        config.default_response_data,
-        config.bot_maximum_running_time,
-        config.game_engine_maximum_running_time
+        config.default_response_data
+        // ,
+        // config.bot_maximum_running_time,
+        // config.game_engine_maximum_running_time
     )
-    result_updater.update_all(record.id, record.game, record.attacker, record.defender, score_calculator)
+    // result_updater.update_all(record.id, record.game, record.attacker, record.defender, score_calculator)
     return 'Done!'
 }
