@@ -69,6 +69,6 @@ async function addNew (recordParam) {
         // config.bot_maximum_running_time,
         // config.game_engine_maximum_running_time
     )
-    // result_updater.update_all(record.id, record.game, record.attacker, record.defender, score_calculator)
+    result_updater.update_all(record.id, record.game, record.attacker, record.defender, score_calculator)
     return 'Done!'
 }

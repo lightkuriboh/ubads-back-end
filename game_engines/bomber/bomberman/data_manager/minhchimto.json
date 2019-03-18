@@ -1,0 +1,7207 @@
+{
+  "player_1": "minh",
+  "player_2": "loc",
+  "result": "",
+  "game": [
+    {
+      "gameStatus": 1,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 17,
+          "y": 16
+        },
+        "enemy": {
+          "x": 17,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 367,
+          "y": 208
+        },
+        "enemy": {
+          "x": 367,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 2,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 18,
+          "y": 16
+        },
+        "enemy": {
+          "x": 18,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 366,
+          "y": 208
+        },
+        "enemy": {
+          "x": 366,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 3,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 19,
+          "y": 16
+        },
+        "enemy": {
+          "x": 19,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 365,
+          "y": 208
+        },
+        "enemy": {
+          "x": 365,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 4,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 20,
+          "y": 16
+        },
+        "enemy": {
+          "x": 20,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 364,
+          "y": 208
+        },
+        "enemy": {
+          "x": 364,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 5,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 21,
+          "y": 16
+        },
+        "enemy": {
+          "x": 21,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 363,
+          "y": 208
+        },
+        "enemy": {
+          "x": 363,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 6,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 22,
+          "y": 16
+        },
+        "enemy": {
+          "x": 22,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 362,
+          "y": 208
+        },
+        "enemy": {
+          "x": 362,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 7,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 23,
+          "y": 16
+        },
+        "enemy": {
+          "x": 23,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 361,
+          "y": 208
+        },
+        "enemy": {
+          "x": 361,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 8,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 24,
+          "y": 16
+        },
+        "enemy": {
+          "x": 24,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 360,
+          "y": 208
+        },
+        "enemy": {
+          "x": 360,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 9,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 25,
+          "y": 16
+        },
+        "enemy": {
+          "x": 25,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 359,
+          "y": 208
+        },
+        "enemy": {
+          "x": 359,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 10,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 26,
+          "y": 16
+        },
+        "enemy": {
+          "x": 26,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 358,
+          "y": 208
+        },
+        "enemy": {
+          "x": 358,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 11,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 27,
+          "y": 16
+        },
+        "enemy": {
+          "x": 27,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 357,
+          "y": 208
+        },
+        "enemy": {
+          "x": 357,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 12,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 28,
+          "y": 16
+        },
+        "enemy": {
+          "x": 28,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 356,
+          "y": 208
+        },
+        "enemy": {
+          "x": 356,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 13,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 29,
+          "y": 16
+        },
+        "enemy": {
+          "x": 29,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 355,
+          "y": 208
+        },
+        "enemy": {
+          "x": 355,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 14,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 30,
+          "y": 16
+        },
+        "enemy": {
+          "x": 30,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 354,
+          "y": 208
+        },
+        "enemy": {
+          "x": 354,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 15,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 31,
+          "y": 16
+        },
+        "enemy": {
+          "x": 31,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 353,
+          "y": 208
+        },
+        "enemy": {
+          "x": 353,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 16,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 32,
+          "y": 16
+        },
+        "enemy": {
+          "x": 32,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 352,
+          "y": 208
+        },
+        "enemy": {
+          "x": 352,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 17,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 33,
+          "y": 16
+        },
+        "enemy": {
+          "x": 33,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 351,
+          "y": 208
+        },
+        "enemy": {
+          "x": 351,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 18,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 34,
+          "y": 16
+        },
+        "enemy": {
+          "x": 34,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 350,
+          "y": 208
+        },
+        "enemy": {
+          "x": 350,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 19,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 35,
+          "y": 16
+        },
+        "enemy": {
+          "x": 35,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 349,
+          "y": 208
+        },
+        "enemy": {
+          "x": 349,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 20,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 36,
+          "y": 16
+        },
+        "enemy": {
+          "x": 36,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 348,
+          "y": 208
+        },
+        "enemy": {
+          "x": 348,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 21,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 37,
+          "y": 16
+        },
+        "enemy": {
+          "x": 37,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 347,
+          "y": 208
+        },
+        "enemy": {
+          "x": 347,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 22,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 38,
+          "y": 16
+        },
+        "enemy": {
+          "x": 38,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 346,
+          "y": 208
+        },
+        "enemy": {
+          "x": 346,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 23,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 39,
+          "y": 16
+        },
+        "enemy": {
+          "x": 39,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 345,
+          "y": 208
+        },
+        "enemy": {
+          "x": 345,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 24,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 40,
+          "y": 16
+        },
+        "enemy": {
+          "x": 40,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 344,
+          "y": 208
+        },
+        "enemy": {
+          "x": 344,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 25,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 41,
+          "y": 16
+        },
+        "enemy": {
+          "x": 41,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 343,
+          "y": 208
+        },
+        "enemy": {
+          "x": 343,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 26,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 42,
+          "y": 16
+        },
+        "enemy": {
+          "x": 42,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 342,
+          "y": 208
+        },
+        "enemy": {
+          "x": 342,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 27,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 43,
+          "y": 16
+        },
+        "enemy": {
+          "x": 43,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 341,
+          "y": 208
+        },
+        "enemy": {
+          "x": 341,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 28,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 44,
+          "y": 16
+        },
+        "enemy": {
+          "x": 44,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 340,
+          "y": 208
+        },
+        "enemy": {
+          "x": 340,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 29,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 45,
+          "y": 16
+        },
+        "enemy": {
+          "x": 45,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 339,
+          "y": 208
+        },
+        "enemy": {
+          "x": 339,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 30,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 46,
+          "y": 16
+        },
+        "enemy": {
+          "x": 46,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 338,
+          "y": 208
+        },
+        "enemy": {
+          "x": 338,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 31,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 47,
+          "y": 16
+        },
+        "enemy": {
+          "x": 47,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 337,
+          "y": 208
+        },
+        "enemy": {
+          "x": 337,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 32,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 48,
+          "y": 16
+        },
+        "enemy": {
+          "x": 48,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 336,
+          "y": 208
+        },
+        "enemy": {
+          "x": 336,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 33,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 49,
+          "y": 16
+        },
+        "enemy": {
+          "x": 49,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 335,
+          "y": 208
+        },
+        "enemy": {
+          "x": 335,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 34,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 50,
+          "y": 16
+        },
+        "enemy": {
+          "x": 50,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 334,
+          "y": 208
+        },
+        "enemy": {
+          "x": 334,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 35,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 51,
+          "y": 16
+        },
+        "enemy": {
+          "x": 51,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 333,
+          "y": 208
+        },
+        "enemy": {
+          "x": 333,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 36,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 52,
+          "y": 16
+        },
+        "enemy": {
+          "x": 52,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 332,
+          "y": 208
+        },
+        "enemy": {
+          "x": 332,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 37,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 53,
+          "y": 16
+        },
+        "enemy": {
+          "x": 53,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 331,
+          "y": 208
+        },
+        "enemy": {
+          "x": 331,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 38,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 54,
+          "y": 16
+        },
+        "enemy": {
+          "x": 54,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 330,
+          "y": 208
+        },
+        "enemy": {
+          "x": 330,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 39,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 55,
+          "y": 16
+        },
+        "enemy": {
+          "x": 55,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 329,
+          "y": 208
+        },
+        "enemy": {
+          "x": 329,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 40,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 56,
+          "y": 16
+        },
+        "enemy": {
+          "x": 56,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 328,
+          "y": 208
+        },
+        "enemy": {
+          "x": 328,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 41,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 57,
+          "y": 16
+        },
+        "enemy": {
+          "x": 57,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 327,
+          "y": 208
+        },
+        "enemy": {
+          "x": 327,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 42,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 58,
+          "y": 16
+        },
+        "enemy": {
+          "x": 58,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 326,
+          "y": 208
+        },
+        "enemy": {
+          "x": 326,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 43,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 59,
+          "y": 16
+        },
+        "enemy": {
+          "x": 59,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 325,
+          "y": 208
+        },
+        "enemy": {
+          "x": 325,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 44,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 60,
+          "y": 16
+        },
+        "enemy": {
+          "x": 60,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 324,
+          "y": 208
+        },
+        "enemy": {
+          "x": 324,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 45,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 61,
+          "y": 16
+        },
+        "enemy": {
+          "x": 61,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 323,
+          "y": 208
+        },
+        "enemy": {
+          "x": 323,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 46,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 62,
+          "y": 16
+        },
+        "enemy": {
+          "x": 62,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 322,
+          "y": 208
+        },
+        "enemy": {
+          "x": 322,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 47,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 63,
+          "y": 16
+        },
+        "enemy": {
+          "x": 63,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 321,
+          "y": 208
+        },
+        "enemy": {
+          "x": 321,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 48,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 64,
+          "y": 16
+        },
+        "enemy": {
+          "x": 64,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 320,
+          "y": 208
+        },
+        "enemy": {
+          "x": 320,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 49,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 65,
+          "y": 16
+        },
+        "enemy": {
+          "x": 65,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 319,
+          "y": 208
+        },
+        "enemy": {
+          "x": 319,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 50,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 66,
+          "y": 16
+        },
+        "enemy": {
+          "x": 66,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 318,
+          "y": 208
+        },
+        "enemy": {
+          "x": 318,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 51,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 67,
+          "y": 16
+        },
+        "enemy": {
+          "x": 67,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 317,
+          "y": 208
+        },
+        "enemy": {
+          "x": 317,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 52,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 68,
+          "y": 16
+        },
+        "enemy": {
+          "x": 68,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 316,
+          "y": 208
+        },
+        "enemy": {
+          "x": 316,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 53,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 69,
+          "y": 16
+        },
+        "enemy": {
+          "x": 69,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 315,
+          "y": 208
+        },
+        "enemy": {
+          "x": 315,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 54,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 70,
+          "y": 16
+        },
+        "enemy": {
+          "x": 70,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 314,
+          "y": 208
+        },
+        "enemy": {
+          "x": 314,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 55,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 71,
+          "y": 16
+        },
+        "enemy": {
+          "x": 71,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 313,
+          "y": 208
+        },
+        "enemy": {
+          "x": 313,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 56,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 72,
+          "y": 16
+        },
+        "enemy": {
+          "x": 72,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 312,
+          "y": 208
+        },
+        "enemy": {
+          "x": 312,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 57,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 73,
+          "y": 16
+        },
+        "enemy": {
+          "x": 73,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 311,
+          "y": 208
+        },
+        "enemy": {
+          "x": 311,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 58,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 74,
+          "y": 16
+        },
+        "enemy": {
+          "x": 74,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 310,
+          "y": 208
+        },
+        "enemy": {
+          "x": 310,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 59,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 75,
+          "y": 16
+        },
+        "enemy": {
+          "x": 75,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 309,
+          "y": 208
+        },
+        "enemy": {
+          "x": 309,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 60,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 76,
+          "y": 16
+        },
+        "enemy": {
+          "x": 76,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 308,
+          "y": 208
+        },
+        "enemy": {
+          "x": 308,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 61,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 77,
+          "y": 16
+        },
+        "enemy": {
+          "x": 77,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 307,
+          "y": 208
+        },
+        "enemy": {
+          "x": 307,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 62,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 78,
+          "y": 16
+        },
+        "enemy": {
+          "x": 78,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 306,
+          "y": 208
+        },
+        "enemy": {
+          "x": 306,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 63,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 79,
+          "y": 16
+        },
+        "enemy": {
+          "x": 79,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 305,
+          "y": 208
+        },
+        "enemy": {
+          "x": 305,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 64,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 80,
+          "y": 16
+        },
+        "enemy": {
+          "x": 80,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 304,
+          "y": 208
+        },
+        "enemy": {
+          "x": 304,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 65,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 81,
+          "y": 16
+        },
+        "enemy": {
+          "x": 81,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 303,
+          "y": 208
+        },
+        "enemy": {
+          "x": 303,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 66,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 82,
+          "y": 16
+        },
+        "enemy": {
+          "x": 82,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 302,
+          "y": 208
+        },
+        "enemy": {
+          "x": 302,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 67,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 83,
+          "y": 16
+        },
+        "enemy": {
+          "x": 83,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 301,
+          "y": 208
+        },
+        "enemy": {
+          "x": 301,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 68,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 84,
+          "y": 16
+        },
+        "enemy": {
+          "x": 84,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 300,
+          "y": 208
+        },
+        "enemy": {
+          "x": 300,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 69,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 85,
+          "y": 16
+        },
+        "enemy": {
+          "x": 85,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 299,
+          "y": 208
+        },
+        "enemy": {
+          "x": 299,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 70,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 86,
+          "y": 16
+        },
+        "enemy": {
+          "x": 86,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 298,
+          "y": 208
+        },
+        "enemy": {
+          "x": 298,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 71,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 87,
+          "y": 16
+        },
+        "enemy": {
+          "x": 87,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 297,
+          "y": 208
+        },
+        "enemy": {
+          "x": 297,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 72,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 88,
+          "y": 16
+        },
+        "enemy": {
+          "x": 88,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 296,
+          "y": 208
+        },
+        "enemy": {
+          "x": 296,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 73,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 89,
+          "y": 16
+        },
+        "enemy": {
+          "x": 89,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 295,
+          "y": 208
+        },
+        "enemy": {
+          "x": 295,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 74,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 90,
+          "y": 16
+        },
+        "enemy": {
+          "x": 90,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 294,
+          "y": 208
+        },
+        "enemy": {
+          "x": 294,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 75,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 91,
+          "y": 16
+        },
+        "enemy": {
+          "x": 91,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 293,
+          "y": 208
+        },
+        "enemy": {
+          "x": 293,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 76,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 92,
+          "y": 16
+        },
+        "enemy": {
+          "x": 92,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 292,
+          "y": 208
+        },
+        "enemy": {
+          "x": 292,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 77,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 93,
+          "y": 16
+        },
+        "enemy": {
+          "x": 93,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 291,
+          "y": 208
+        },
+        "enemy": {
+          "x": 291,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 78,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 94,
+          "y": 16
+        },
+        "enemy": {
+          "x": 94,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 290,
+          "y": 208
+        },
+        "enemy": {
+          "x": 290,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 79,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 95,
+          "y": 16
+        },
+        "enemy": {
+          "x": 95,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 289,
+          "y": 208
+        },
+        "enemy": {
+          "x": 289,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 80,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 96,
+          "y": 16
+        },
+        "enemy": {
+          "x": 96,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 288,
+          "y": 208
+        },
+        "enemy": {
+          "x": 288,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 81,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 97,
+          "y": 16
+        },
+        "enemy": {
+          "x": 97,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 287,
+          "y": 208
+        },
+        "enemy": {
+          "x": 287,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 82,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 98,
+          "y": 16
+        },
+        "enemy": {
+          "x": 98,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 286,
+          "y": 208
+        },
+        "enemy": {
+          "x": 286,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 83,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 99,
+          "y": 16
+        },
+        "enemy": {
+          "x": 99,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 285,
+          "y": 208
+        },
+        "enemy": {
+          "x": 285,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 84,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 100,
+          "y": 16
+        },
+        "enemy": {
+          "x": 100,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 284,
+          "y": 208
+        },
+        "enemy": {
+          "x": 284,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 85,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 101,
+          "y": 16
+        },
+        "enemy": {
+          "x": 101,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 283,
+          "y": 208
+        },
+        "enemy": {
+          "x": 283,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 86,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 102,
+          "y": 16
+        },
+        "enemy": {
+          "x": 102,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 282,
+          "y": 208
+        },
+        "enemy": {
+          "x": 282,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 87,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 103,
+          "y": 16
+        },
+        "enemy": {
+          "x": 103,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 281,
+          "y": 208
+        },
+        "enemy": {
+          "x": 281,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 88,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 104,
+          "y": 16
+        },
+        "enemy": {
+          "x": 104,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 280,
+          "y": 208
+        },
+        "enemy": {
+          "x": 280,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 89,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 105,
+          "y": 16
+        },
+        "enemy": {
+          "x": 105,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 279,
+          "y": 208
+        },
+        "enemy": {
+          "x": 279,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 90,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 106,
+          "y": 16
+        },
+        "enemy": {
+          "x": 106,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 278,
+          "y": 208
+        },
+        "enemy": {
+          "x": 278,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 91,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 107,
+          "y": 16
+        },
+        "enemy": {
+          "x": 107,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 277,
+          "y": 208
+        },
+        "enemy": {
+          "x": 277,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 92,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 108,
+          "y": 16
+        },
+        "enemy": {
+          "x": 108,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 276,
+          "y": 208
+        },
+        "enemy": {
+          "x": 276,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 93,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 109,
+          "y": 16
+        },
+        "enemy": {
+          "x": 109,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 275,
+          "y": 208
+        },
+        "enemy": {
+          "x": 275,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 94,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 110,
+          "y": 16
+        },
+        "enemy": {
+          "x": 110,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 274,
+          "y": 208
+        },
+        "enemy": {
+          "x": 274,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 95,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 111,
+          "y": 16
+        },
+        "enemy": {
+          "x": 111,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 273,
+          "y": 208
+        },
+        "enemy": {
+          "x": 273,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 96,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 112,
+          "y": 16
+        },
+        "enemy": {
+          "x": 112,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 272,
+          "y": 208
+        },
+        "enemy": {
+          "x": 272,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 97,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 113,
+          "y": 16
+        },
+        "enemy": {
+          "x": 113,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 271,
+          "y": 208
+        },
+        "enemy": {
+          "x": 271,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 98,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 114,
+          "y": 16
+        },
+        "enemy": {
+          "x": 114,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 270,
+          "y": 208
+        },
+        "enemy": {
+          "x": 270,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 99,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 115,
+          "y": 16
+        },
+        "enemy": {
+          "x": 115,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 269,
+          "y": 208
+        },
+        "enemy": {
+          "x": 269,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 100,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 116,
+          "y": 16
+        },
+        "enemy": {
+          "x": 116,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 268,
+          "y": 208
+        },
+        "enemy": {
+          "x": 268,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 101,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 117,
+          "y": 16
+        },
+        "enemy": {
+          "x": 117,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 267,
+          "y": 208
+        },
+        "enemy": {
+          "x": 267,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 102,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 118,
+          "y": 16
+        },
+        "enemy": {
+          "x": 118,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 266,
+          "y": 208
+        },
+        "enemy": {
+          "x": 266,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 103,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 119,
+          "y": 16
+        },
+        "enemy": {
+          "x": 119,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 265,
+          "y": 208
+        },
+        "enemy": {
+          "x": 265,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 104,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 120,
+          "y": 16
+        },
+        "enemy": {
+          "x": 120,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 264,
+          "y": 208
+        },
+        "enemy": {
+          "x": 264,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 105,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 121,
+          "y": 16
+        },
+        "enemy": {
+          "x": 121,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 263,
+          "y": 208
+        },
+        "enemy": {
+          "x": 263,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 106,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 122,
+          "y": 16
+        },
+        "enemy": {
+          "x": 122,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 262,
+          "y": 208
+        },
+        "enemy": {
+          "x": 262,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 107,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 123,
+          "y": 16
+        },
+        "enemy": {
+          "x": 123,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 261,
+          "y": 208
+        },
+        "enemy": {
+          "x": 261,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 108,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 124,
+          "y": 16
+        },
+        "enemy": {
+          "x": 124,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 260,
+          "y": 208
+        },
+        "enemy": {
+          "x": 260,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 109,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 125,
+          "y": 16
+        },
+        "enemy": {
+          "x": 125,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 259,
+          "y": 208
+        },
+        "enemy": {
+          "x": 259,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 110,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 126,
+          "y": 16
+        },
+        "enemy": {
+          "x": 126,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 258,
+          "y": 208
+        },
+        "enemy": {
+          "x": 258,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 111,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 127,
+          "y": 16
+        },
+        "enemy": {
+          "x": 127,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 257,
+          "y": 208
+        },
+        "enemy": {
+          "x": 257,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 112,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 128,
+          "y": 16
+        },
+        "enemy": {
+          "x": 128,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 256,
+          "y": 208
+        },
+        "enemy": {
+          "x": 256,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 113,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 129,
+          "y": 16
+        },
+        "enemy": {
+          "x": 129,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 255,
+          "y": 208
+        },
+        "enemy": {
+          "x": 255,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 114,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 130,
+          "y": 16
+        },
+        "enemy": {
+          "x": 130,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 254,
+          "y": 208
+        },
+        "enemy": {
+          "x": 254,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 115,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 131,
+          "y": 16
+        },
+        "enemy": {
+          "x": 131,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 253,
+          "y": 208
+        },
+        "enemy": {
+          "x": 253,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 116,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 132,
+          "y": 16
+        },
+        "enemy": {
+          "x": 132,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 252,
+          "y": 208
+        },
+        "enemy": {
+          "x": 252,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 117,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 133,
+          "y": 16
+        },
+        "enemy": {
+          "x": 133,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 251,
+          "y": 208
+        },
+        "enemy": {
+          "x": 251,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 118,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 134,
+          "y": 16
+        },
+        "enemy": {
+          "x": 134,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 250,
+          "y": 208
+        },
+        "enemy": {
+          "x": 250,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 119,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 135,
+          "y": 16
+        },
+        "enemy": {
+          "x": 135,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 249,
+          "y": 208
+        },
+        "enemy": {
+          "x": 249,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 120,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 136,
+          "y": 16
+        },
+        "enemy": {
+          "x": 136,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 248,
+          "y": 208
+        },
+        "enemy": {
+          "x": 248,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 121,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 137,
+          "y": 16
+        },
+        "enemy": {
+          "x": 137,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 247,
+          "y": 208
+        },
+        "enemy": {
+          "x": 247,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 122,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 138,
+          "y": 16
+        },
+        "enemy": {
+          "x": 138,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 246,
+          "y": 208
+        },
+        "enemy": {
+          "x": 246,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 123,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 139,
+          "y": 16
+        },
+        "enemy": {
+          "x": 139,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 245,
+          "y": 208
+        },
+        "enemy": {
+          "x": 245,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 124,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 140,
+          "y": 16
+        },
+        "enemy": {
+          "x": 140,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 244,
+          "y": 208
+        },
+        "enemy": {
+          "x": 244,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 125,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 141,
+          "y": 16
+        },
+        "enemy": {
+          "x": 141,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 243,
+          "y": 208
+        },
+        "enemy": {
+          "x": 243,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 126,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 142,
+          "y": 16
+        },
+        "enemy": {
+          "x": 142,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 242,
+          "y": 208
+        },
+        "enemy": {
+          "x": 242,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 127,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 143,
+          "y": 16
+        },
+        "enemy": {
+          "x": 143,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 241,
+          "y": 208
+        },
+        "enemy": {
+          "x": 241,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 128,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 144,
+          "y": 16
+        },
+        "enemy": {
+          "x": 144,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 240,
+          "y": 208
+        },
+        "enemy": {
+          "x": 240,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 129,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 145,
+          "y": 16
+        },
+        "enemy": {
+          "x": 145,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 239,
+          "y": 208
+        },
+        "enemy": {
+          "x": 239,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 130,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 146,
+          "y": 16
+        },
+        "enemy": {
+          "x": 146,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 238,
+          "y": 208
+        },
+        "enemy": {
+          "x": 238,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 131,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 147,
+          "y": 16
+        },
+        "enemy": {
+          "x": 147,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 237,
+          "y": 208
+        },
+        "enemy": {
+          "x": 237,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 132,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 148,
+          "y": 16
+        },
+        "enemy": {
+          "x": 148,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 236,
+          "y": 208
+        },
+        "enemy": {
+          "x": 236,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 133,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 149,
+          "y": 16
+        },
+        "enemy": {
+          "x": 149,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 235,
+          "y": 208
+        },
+        "enemy": {
+          "x": 235,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 134,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 150,
+          "y": 16
+        },
+        "enemy": {
+          "x": 150,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 234,
+          "y": 208
+        },
+        "enemy": {
+          "x": 234,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 135,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 151,
+          "y": 16
+        },
+        "enemy": {
+          "x": 151,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 233,
+          "y": 208
+        },
+        "enemy": {
+          "x": 233,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 136,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 152,
+          "y": 16
+        },
+        "enemy": {
+          "x": 152,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 232,
+          "y": 208
+        },
+        "enemy": {
+          "x": 232,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 137,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 153,
+          "y": 16
+        },
+        "enemy": {
+          "x": 153,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 231,
+          "y": 208
+        },
+        "enemy": {
+          "x": 231,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 138,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 154,
+          "y": 16
+        },
+        "enemy": {
+          "x": 154,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 230,
+          "y": 208
+        },
+        "enemy": {
+          "x": 230,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 139,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 155,
+          "y": 16
+        },
+        "enemy": {
+          "x": 155,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 229,
+          "y": 208
+        },
+        "enemy": {
+          "x": 229,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 140,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 156,
+          "y": 16
+        },
+        "enemy": {
+          "x": 156,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 228,
+          "y": 208
+        },
+        "enemy": {
+          "x": 228,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 141,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 157,
+          "y": 16
+        },
+        "enemy": {
+          "x": 157,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 227,
+          "y": 208
+        },
+        "enemy": {
+          "x": 227,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 142,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 158,
+          "y": 16
+        },
+        "enemy": {
+          "x": 158,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 226,
+          "y": 208
+        },
+        "enemy": {
+          "x": 226,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 143,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 159,
+          "y": 16
+        },
+        "enemy": {
+          "x": 159,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 225,
+          "y": 208
+        },
+        "enemy": {
+          "x": 225,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 144,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 160,
+          "y": 16
+        },
+        "enemy": {
+          "x": 160,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 224,
+          "y": 208
+        },
+        "enemy": {
+          "x": 224,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 145,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 161,
+          "y": 16
+        },
+        "enemy": {
+          "x": 161,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 223,
+          "y": 208
+        },
+        "enemy": {
+          "x": 223,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 146,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 162,
+          "y": 16
+        },
+        "enemy": {
+          "x": 162,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 222,
+          "y": 208
+        },
+        "enemy": {
+          "x": 222,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 147,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 163,
+          "y": 16
+        },
+        "enemy": {
+          "x": 163,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 221,
+          "y": 208
+        },
+        "enemy": {
+          "x": 221,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 148,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 164,
+          "y": 16
+        },
+        "enemy": {
+          "x": 164,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 220,
+          "y": 208
+        },
+        "enemy": {
+          "x": 220,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 149,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 165,
+          "y": 16
+        },
+        "enemy": {
+          "x": 165,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 219,
+          "y": 208
+        },
+        "enemy": {
+          "x": 219,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 150,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 166,
+          "y": 16
+        },
+        "enemy": {
+          "x": 166,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 218,
+          "y": 208
+        },
+        "enemy": {
+          "x": 218,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 151,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 167,
+          "y": 16
+        },
+        "enemy": {
+          "x": 167,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 217,
+          "y": 208
+        },
+        "enemy": {
+          "x": 217,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 152,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 168,
+          "y": 16
+        },
+        "enemy": {
+          "x": 168,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 216,
+          "y": 208
+        },
+        "enemy": {
+          "x": 216,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 153,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 169,
+          "y": 16
+        },
+        "enemy": {
+          "x": 169,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 215,
+          "y": 208
+        },
+        "enemy": {
+          "x": 215,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 154,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 170,
+          "y": 16
+        },
+        "enemy": {
+          "x": 170,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 214,
+          "y": 208
+        },
+        "enemy": {
+          "x": 214,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 155,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 171,
+          "y": 16
+        },
+        "enemy": {
+          "x": 171,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 213,
+          "y": 208
+        },
+        "enemy": {
+          "x": 213,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 156,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 172,
+          "y": 16
+        },
+        "enemy": {
+          "x": 172,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 212,
+          "y": 208
+        },
+        "enemy": {
+          "x": 212,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 157,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 173,
+          "y": 16
+        },
+        "enemy": {
+          "x": 173,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 211,
+          "y": 208
+        },
+        "enemy": {
+          "x": 211,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 158,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 174,
+          "y": 16
+        },
+        "enemy": {
+          "x": 174,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 210,
+          "y": 208
+        },
+        "enemy": {
+          "x": 210,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 159,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 175,
+          "y": 16
+        },
+        "enemy": {
+          "x": 175,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 209,
+          "y": 208
+        },
+        "enemy": {
+          "x": 209,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 160,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 176,
+          "y": 16
+        },
+        "enemy": {
+          "x": 176,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 208,
+          "y": 208
+        },
+        "enemy": {
+          "x": 208,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 161,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 177,
+          "y": 16
+        },
+        "enemy": {
+          "x": 177,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 207,
+          "y": 208
+        },
+        "enemy": {
+          "x": 207,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 162,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 178,
+          "y": 16
+        },
+        "enemy": {
+          "x": 178,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 206,
+          "y": 208
+        },
+        "enemy": {
+          "x": 206,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 163,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 179,
+          "y": 16
+        },
+        "enemy": {
+          "x": 179,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 205,
+          "y": 208
+        },
+        "enemy": {
+          "x": 205,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 164,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 180,
+          "y": 16
+        },
+        "enemy": {
+          "x": 180,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 204,
+          "y": 208
+        },
+        "enemy": {
+          "x": 204,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 165,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 181,
+          "y": 16
+        },
+        "enemy": {
+          "x": 181,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 203,
+          "y": 208
+        },
+        "enemy": {
+          "x": 203,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 166,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 182,
+          "y": 16
+        },
+        "enemy": {
+          "x": 182,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 202,
+          "y": 208
+        },
+        "enemy": {
+          "x": 202,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 167,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 183,
+          "y": 16
+        },
+        "enemy": {
+          "x": 183,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 201,
+          "y": 208
+        },
+        "enemy": {
+          "x": 201,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 168,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 184,
+          "y": 16
+        },
+        "enemy": {
+          "x": 184,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 200,
+          "y": 208
+        },
+        "enemy": {
+          "x": 200,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 169,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 185,
+          "y": 16
+        },
+        "enemy": {
+          "x": 185,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 199,
+          "y": 208
+        },
+        "enemy": {
+          "x": 199,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 170,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 186,
+          "y": 16
+        },
+        "enemy": {
+          "x": 186,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 198,
+          "y": 208
+        },
+        "enemy": {
+          "x": 198,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 171,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 187,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 197,
+          "y": 208
+        },
+        "enemy": {
+          "x": 197,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 172,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 188,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 196,
+          "y": 208
+        },
+        "enemy": {
+          "x": 196,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 173,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 189,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 195,
+          "y": 208
+        },
+        "enemy": {
+          "x": 195,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 174,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 190,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 194,
+          "y": 208
+        },
+        "enemy": {
+          "x": 194,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 175,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 191,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 193,
+          "y": 208
+        },
+        "enemy": {
+          "x": 193,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 176,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 192,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 192,
+          "y": 208
+        },
+        "enemy": {
+          "x": 192,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 177,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 193,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 191,
+          "y": 208
+        },
+        "enemy": {
+          "x": 191,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 178,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 194,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 190,
+          "y": 208
+        },
+        "enemy": {
+          "x": 190,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 179,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 195,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 189,
+          "y": 208
+        },
+        "enemy": {
+          "x": 189,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 180,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 196,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 188,
+          "y": 208
+        },
+        "enemy": {
+          "x": 188,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 181,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 197,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 208
+        },
+        "enemy": {
+          "x": 187,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 182,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 198,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 186,
+          "y": 208
+        },
+        "enemy": {
+          "x": 186,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 183,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 199,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 185,
+          "y": 208
+        },
+        "enemy": {
+          "x": 185,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 184,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 200,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 184,
+          "y": 208
+        },
+        "enemy": {
+          "x": 184,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 185,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 201,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 183,
+          "y": 208
+        },
+        "enemy": {
+          "x": 183,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 186,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 202,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 182,
+          "y": 208
+        },
+        "enemy": {
+          "x": 182,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 187,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 203,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 181,
+          "y": 208
+        },
+        "enemy": {
+          "x": 181,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 188,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 204,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 180,
+          "y": 208
+        },
+        "enemy": {
+          "x": 180,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 189,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 205,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 179,
+          "y": 208
+        },
+        "enemy": {
+          "x": 179,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 190,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 206,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 178,
+          "y": 208
+        },
+        "enemy": {
+          "x": 178,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 191,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 207,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 177,
+          "y": 208
+        },
+        "enemy": {
+          "x": 177,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 192,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 208,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 176,
+          "y": 208
+        },
+        "enemy": {
+          "x": 176,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 193,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 209,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 175,
+          "y": 208
+        },
+        "enemy": {
+          "x": 175,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 194,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 210,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 174,
+          "y": 208
+        },
+        "enemy": {
+          "x": 174,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 195,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 211,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 173,
+          "y": 208
+        },
+        "enemy": {
+          "x": 173,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 196,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 212,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 172,
+          "y": 208
+        },
+        "enemy": {
+          "x": 172,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 197,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 213,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 171,
+          "y": 208
+        },
+        "enemy": {
+          "x": 171,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 198,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 214,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 170,
+          "y": 208
+        },
+        "enemy": {
+          "x": 170,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 199,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 215,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 169,
+          "y": 208
+        },
+        "enemy": {
+          "x": 169,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    },
+    {
+      "gameStatus": 200,
+      "player_1": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 187,
+          "y": 16
+        },
+        "enemy": {
+          "x": 216,
+          "y": 208
+        }
+      },
+      "player_2": {
+        "score": 0,
+        "bombs": 3,
+        "rollers": 1.0,
+        "flames": 1,
+        "paws": 1.0,
+        "bomber": {
+          "x": 168,
+          "y": 208
+        },
+        "enemy": {
+          "x": 168,
+          "y": 16
+        }
+      },
+      "bombs": [],
+      "bricks": [],
+      "explosions": []
+    }
+  ]
+}

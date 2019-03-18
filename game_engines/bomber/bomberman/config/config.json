@@ -1,0 +1,26 @@
+{
+    "data" : {
+     "game_name": "BOMBERMAN",
+     "width": 25,
+     "height": 15,
+     "bomb_rate": 3,
+     "bomb_radius": 1,
+     "bomber_speed": 16,
+     "bomb_delay": 5,
+     "brick_delay": 20,
+     "item_cooldown": 40,
+     "time": 20,
+     "point": 1,
+     "default_input": [0, 0],
+     "explode_time": 10
+    },
+    "config": {
+        "game_engine_command": "python3",
+        "bot_maximum_running_time": 12000,
+        "game_engine_maximum_running_time": 15000,
+        "bot_waiting_time": 100,
+        "game_engine_waiting_time": 100,
+        "default_response_data": "0 0\n",
+        "turn_number": 20
+    }
+}

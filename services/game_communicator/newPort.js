@@ -8,7 +8,7 @@ const {spawn} = require('child_process')
 const { Duplex } = require('stream')
 
 function create_io_stream () {
-    return new Duplex({
+    let my_stream = new Duplex({
         write(chunk, encoding, callback) {
             this.push(chunk)
             callback()
@@ -16,6 +16,10 @@ function create_io_stream () {
         read() {
         }
     })
+    my_stream.on('error', (error) => {
+        console.log(error)
+    })
+    return my_stream
 }
 
 function create_io_data_storage (turn, default_data) {
@@ -44,6 +48,9 @@ function spawn_the_bots(bots, turn, default_data) {
     for (let i = 0; i < number_of_bots; i++) {
         let spawn_command = './' + bots[i].toString()
         children.push(spawn(spawn_command))
+        children[i].stdin.on('error', (error) => {
+            console.log('Bot stream error:', error)
+        })
         children[i].turn = 0
         children[i].bot_data = create_io_data_storage(turn, default_data)
         children[i].had_data = create_io_data_storage(turn, false)
@@ -61,6 +68,9 @@ function connect_bots_to_stream(bots, gameEngine_to_bot_stream) {
 
 function spawn_game_engine(game_engine_command, game_engine_name, fightID, players_name) {
     let game_engine = spawn(game_engine_command, [game_engine_name, fightID, ...players_name])
+    game_engine.stdin.on('error', (error) => {
+        console.log('Game engine stdin error: ', error)
+    })
     game_engine.resp_data = ''
     return game_engine
 }
@@ -94,7 +104,7 @@ async function waiting_children (children, bot_to_game_engine_stream, game_info,
     while (game_info.turn_count < turn) {
         await sleep(10)
 
-        wait (semaphore)
+        await wait (semaphore)
 
         if ((new Date()).getTime() - game_info.time_start > time_wait) {
             console.log('Time Out')
@@ -105,7 +115,7 @@ async function waiting_children (children, bot_to_game_engine_stream, game_info,
 
         signal (semaphore)
     }
-    bot_to_game_engine_stream.push(null)
+    // bot_to_game_engine_stream.push(null)
 }
 
 
@@ -142,8 +152,10 @@ function create_semaphore () {
     }
 }
 
-function wait (semaphore) {
-    while (semaphore.sem <= 0) {}
+async function wait (semaphore) {
+    while (semaphore.sem <= 0) {
+        await sleep(5)
+    }
     semaphore.sem--
 }
 
@@ -174,11 +186,11 @@ async function run_game(
     let semaphore = create_semaphore()
 
     for (let child of children) {
-        child.stdout.on('data', function (data) {
+        child.stdout.on('data', async function (data) {
             child.bot_data[child.turn] = data.toString()
             child.had_data[child.turn] = true
             child.turn += 1
-            wait (semaphore)
+            await wait (semaphore)
             if (game_info.turn_count < turn && check_all_had_data(children, game_info.turn_count, number_of_bots)) {
                 // console.log('All had data, now push data!')
                 // print_data(children, game_info.turn_count)
@@ -212,7 +224,7 @@ async function run_game(
 
     await waiting_children(children, bot_to_gameEngine_stream, game_info, turn, semaphore)
 
-    gameEngine_to_bot_stream.push(null)
+    // gameEngine_to_bot_stream.push(null)
     /**
      * Kill game engine and bots
      */

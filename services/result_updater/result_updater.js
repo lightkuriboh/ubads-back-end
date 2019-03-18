@@ -9,7 +9,7 @@ const Achievement = db.achievement
 const Record = db.record
 const AchievementServices = require('../../routes/achievement/achivement.services')
 
-// update_all('1552735592554', '0', 'hekl0', 'lightkuriboh', '../../game_engines/bomber/score_calculator.js')
+// update_all('1552927096298', '0', 'hekl0', 'lightkuriboh', '../../game_engines/bomber/score_calculator.js')
 
 async function update_all (id, game, attacker, defender, score_calculator) {
     await update_result(id, game, attacker, defender, score_calculator)
@@ -31,7 +31,8 @@ function parse_result_str (result, startIndex, special_character) {
 
 async function update_result (id, game, attacker, defender, score_calculator) {
     const fs = require('fs')
-    const path = '../../fight_result/' + id.toString() + '.result'
+    const path = 'fight_result/' + id.toString() + '.result'
+    // console.log(path)
     if (fs.existsSync(path)) {
         // console.log('File found')
         let all_result = await fs.readFileSync(path, "utf8")
@@ -178,7 +179,7 @@ async function rating_calculator (game, attacker, defender) {
 }
 
 
-function update_record (id, result) {
+async function update_record (id, result) {
     let query = {
         id: id
     }
@@ -201,7 +202,8 @@ function update_record (id, result) {
     let update = {
         result: status
     }
-    Record.updateOne(query, update)
+    // console.log(query, update)
+    await Record.updateOne(query, update)
 }
 
 
